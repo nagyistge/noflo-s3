@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "knox": "~0.9.2",
-    "noflo": "~0.5.22"
+    "noflo": "~0.7.3"
   },
   "devDependencies": {
     "coffee-script": "^1.10.0",
@@ -26,7 +26,10 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-noflo-manifest": "^0.1.11"
   },
-  "keywords": ["noflo", "s3"],
+  "keywords": [
+    "noflo",
+    "s3"
+  ],
   "noflo": {
     "components": {
       "CreateClient": "components/CreateClient.coffee",
